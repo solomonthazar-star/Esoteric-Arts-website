@@ -1,0 +1,75 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #f5f5f5;
+  background-color: #111;
+  text-align: center;
+}
+
+/* Header */
+header {
+  padding: 2rem 1rem;
+  background: linear-gradient(90deg, #8e0e00, #1f1c18);
+}
+header .logo {
+  max-width: 120px;
+  margin-bottom: 0.5rem;
+}
+header h1 {
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
+}
+header .tagline {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #e63946;
+}
+
+/* Sections */
+section {
+  padding: 2rem 1rem;
+}
+h2 {
+  margin-bottom: 1rem;
+  color: #e63946;
+}
+
+/* Writers Section */
+.writer {
+  margin: 1.5rem 0;
+}
+.writer h3 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.writer a {
+  color: #e63946;
+  text-decoration: none;
+  font-weight: bold;
+}
+.writer a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  padding: 1rem;
+  background: #000;
+  font-size: 0.9rem;
+}
